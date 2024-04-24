@@ -27,7 +27,7 @@ namespace ViewViewLoadFailRepro
 
         private string BuildUrl()
         {
-            return "https://gpx.studio/?state=%7b%22urls%22%3a%5b%22https%3a%2f%2fat1.samorokov.online%2fapi%2fGpxFile%3ftrackId%3d3f709779-0be0-4863-bdd7-08d1674f6ccd%22%5d%7d&distance&direction&slope&imperial&embed";
+            return "https://gpx.studio/?state=%7b%22urls%22%3a%5b%22https%3a%2f%2ftripsta-gpx-api-prod.tripsta.app%2fapi%2fGpxFile%3ftrackId%3dda6a2250-32c4-4161-b047-568ead11d699%22%5d%7d&embed&imperial&distance&direction&slope";
         }
     }
 }
